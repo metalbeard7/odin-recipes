@@ -5,14 +5,17 @@ a:active {
     text-decoration: none; color: brown;
 }
 
-ul {
+#button {
     list-style-type: none;
 }
 
 body {
-    background-color: beige; text-align: center;
+    background-color: beige; text-align: center; font-family: Arial, Helvetica, sans-serif 
 }
 
 h1 {
-    background-color: maroon; color: antiquewhite;
+    background-color: maroon; color: antiquewhite; 
+}
+.left-align {
+    text-align: justify;
 }
