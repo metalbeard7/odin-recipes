@@ -1,0 +1,18 @@
+a:link, 
+a:visited, 
+a:hover,
+a:active {
+    text-decoration: none; color: brown;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: beige; text-align: center;
+}
+
+h1 {
+    background-color: maroon; color: antiquewhite;
+}
