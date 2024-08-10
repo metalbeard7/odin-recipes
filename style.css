@@ -1,21 +1,14 @@
-a:link, 
-a:visited, 
-a:hover,
-a:active {
-    text-decoration: none; color: brown; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px dotted red;
 }
 
-ul #button {
-    list-style-type: none;
-}
+.main-heading {
+    color: antiquewhite;
+    background-color: maroon;
+    text-align: center;
 
-body {
-    background-color: beige; text-align: center; font-family: Arial, Helvetica, sans-serif 
-}
 
-h1 {
-    background-color: maroon; color: antiquewhite; 
-}
-.left-align {
-    text-align: justify;
 }
