@@ -5,6 +5,10 @@
     outline: 1px dotted red;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .main-heading {
     color: antiquewhite;
     background-color: maroon;
