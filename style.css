@@ -2,28 +2,125 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 5px dotted red;
+    /* outline: auto; */
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
 }
 
-.main-heading {
+.main-heading, h1 {
     color: antiquewhite;
     background-color: maroon;
     text-align: center;
-
-
+    padding: 5px;
+    margin: 10px;
 }
 
 img {
-display: flex;
+height: 500px;
+margin: 0 40px 0 0px;
 }
 
-#button {
-    display: inline-block;
+.body-container {
+    display: flex;
+    justify-content: center;
 }
-ul {
+
+.homepage-container {
+    display: flex;    
+    margin: 40px 10px;
+    justify-content: center;
+    height: max-content;
+    border: 5px solid maroon;
+    padding: 20px;
+    width: fit-content;
+    background-color: antiquewhite;
+}
+
+.hearty { 
+    margin: 0 0 15px 10px;
+}
+
+.homepage-desc {
+    padding-bottom: 0;
+    margin-left: 10px;
+    width: 300px;
+    height: fit-content;
+    flex: 1;
+}
+
+.vert-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-buttons {
+    justify-content: center;
+}
+
+#button-oat, 
+#button-pizza,
+#button-bolognese {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+button a {
+display: inline-block;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: maroon;
+}
+
+a:hover {
+    background-color: maroon;
+    color: antiquewhite;
+}
+
+.ingredients-list {
+    list-style-type:disc;
+    margin: 10px 10px 10px 30px;
+}
+
+.oat-page-container {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+}
+.nos-header {
+    width: 1500px;
+    height: fit-content;
+    display: flex;
+}
+.nos-para {
     display: inline-block;
+    height: fit-content;
+}
+
+button, a {
+width: 160px;
+height: auto;
+}
+
+button { 
+    border: solid maroon;
+    background-color: antiquewhite;
+    color: maroon;
 }
